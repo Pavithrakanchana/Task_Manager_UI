@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +10,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class LoginComponent {
   loginForm!: FormGroup;
 
-  constructor(){}
+  constructor(private route: ActivatedRoute, private router: Router){}
 
   ngOnInit(): void {
     console.log("inside ngonint");
@@ -23,6 +24,7 @@ export class LoginComponent {
   }  
   onSubmit(formData:any){
     console.log(formData.value);
+    this.router.navigate(['mainPage']);
 
   }
  
