@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "~bootstrap/dist/css/bootstrap.css";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ /* Colors need to be used in this project
+ #407C87 - header
+ #A5DBDD - outline for login card and other cards used
+ #EEF1F6 - need to be planned
+ #D3E1E2 - background for pop-up
+ */
