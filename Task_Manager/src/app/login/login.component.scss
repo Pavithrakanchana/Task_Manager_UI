@@ -1,0 +1,26 @@
+.example-card {
+    min-width: 35%;
+    min-height: 45%;
+    max-width: 400px;
+    max-height: 400px;
+    border: 2px solid #A5DBDD;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .alignment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+  .button-color{
+    border: 2px solid #A5DBDD;
+    float: right;
+  }
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #A5DBDD;
+  }
+  
