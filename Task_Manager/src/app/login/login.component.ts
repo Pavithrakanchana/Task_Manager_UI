@@ -24,7 +24,7 @@ export class LoginComponent {
   }  
   onSubmit(formData:any){
     console.log(formData.value);
-    this.router.navigate(['mainPage']);
+    //this.router.navigate(['mainPage']);
 
   }
  
