@@ -1,0 +1,16 @@
+.example-container {
+        width: 500px;
+        height: 300px;
+        border: 1px solid #A5DBDD;
+        border-radius: 8px;
+}
+.alignment {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #A5DBDD;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+}
