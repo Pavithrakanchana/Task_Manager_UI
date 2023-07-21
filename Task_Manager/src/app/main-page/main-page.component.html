@@ -1,8 +1,25 @@
 <form class="main-page-form">
     <div class="alignment">
-        <mat-drawer-container class="example-container">
-            <mat-drawer mode="side" opened>Drawer content</mat-drawer>
-            <mat-drawer-content>Main content</mat-drawer-content>
-            </mat-drawer-container>
+        <mat-drawer-container class="example-container"  [hasBackdrop]="false" >
+            <mat-drawer #drawer opened mode="side" disableClosed>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="center"><strong>LISTS</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="example-button-container">
+                            <button mat-mini-fab color="color">
+                                <mat-icon>format_list_bulleted_add </mat-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <mat-drawer-content>
+               Please select a list from sidebar!
+            </mat-drawer-content>
+          </mat-drawer-container>
+          
     </div>
 </form>
